@@ -19,6 +19,9 @@ p {
 .navbar-nav>li>a:hover {
 color: #CA5CBE;
 }
+.contacts>li>a {
+    color: rgb(136, 203, 206)!important;
+}
 .contacts>li>a:hover {
     color: #CA5CBE;
 }
@@ -74,7 +77,13 @@ width: 30px;
   justify-content: center;
 }
 
-
+.number {
+    display: none;
+}
+.mobile:hover .number {
+    display: flex;
+    justify-content: center;
+}
 
 footer,
 .btn-outline-light {
